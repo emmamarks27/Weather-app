@@ -1,0 +1,108 @@
+.container {
+  max-width: 1000px;
+  margin-top: 100px;
+  padding: 50px 100px 100px;
+  border: solid black 7px;
+  border-radius: 3px;
+  box-shadow: 7px 3px 5px black;
+}
+
+header {
+  padding-bottom: 30px;
+  text-align: right;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 40px;
+  transition: auto 300ms;
+}
+
+h2 {
+  padding-bottom: none;
+  text-align: center;
+}
+
+h5 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.row-one {
+  padding-bottom: 0px;
+}
+
+.col-3.today-weather-location {
+  border-right: solid 5px grey;
+}
+
+.col-3.today-weather-forecast {
+  border-right: solid 5px grey;
+}
+.col-3 .weather-near-me {
+  border-right: solid 5px grey;
+}
+
+#local-weather-button {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card:hover {
+  background-color: #7fa4e8;
+}
+.fa-solid {
+  font-size: 38px;
+}
+
+p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.row-three {
+  margin: 50px 0 10px;
+}
+
+.units {
+  margin: 10px 0;
+}
+
+.search-bar-city {
+  margin-top: 50px;
+}
+
+.small-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.search-form {
+  max-width: 600px;
+  display: block;
+  margin: 50px auto 0;
+}
+
+.btn {
+  background-color: white;
+  border: solid 1px #ced4da;
+  padding: 10px;
+  color: black;
+  line-height: 1;
+}
+
+.btn:hover {
+  background-color: #7fa4e8;
+  border: solid 1px #7fa4e8;
+  color: white;
+}
+
+#local {
+  margin-top: 10px;
+  font-weight: 400;
+  width: 100%;
+}
