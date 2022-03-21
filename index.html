@@ -20,15 +20,18 @@
   </head>
   <body>
     <div class="container">
-      <header></header>
+      <header>Last updated at: <span id="date-time"></span></header>
+
       <h1>Weather App</h1>
+
       <div class="row row-one">
-        <div class="main-body"></div>
         <div class="col-3 today-weather-location">
-          <span class="small-text"
-            >Hello! The Weather in
-            <span id="searched-city">London</span> is:</span
-          >
+          <span class="small-text"> <span id="searched-city"></span></span>
+          <ul>
+            <li id="weather-conditions"></li>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind Speed: <span id="wind-speed"></span>km/h</li>
+          </ul>
         </div>
         <div class="col-9 col-one">
           <h2>5 Day Weather Forecast</h2>
@@ -40,58 +43,62 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Today</h5>
-              <i class="fa-solid fa-cloud-showers-heavy"></i>
-              <p class="card-text"><span id="today-weather">13</span>°</p>
+              <img src="" id="today-weather-icon"></img>
+              <p class="card-text">
+                <span id="today-weather"></span>
+                <a href="#" id="celsius" class="active">°C</a>
+                <a href="#" id="fahrenheit">°F</a>
+              </p>
             </div>
           </div>
         </div>
 
-        <div class="col five-day mon">
+        <div class="col">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Mon</h5>
               <i class="fa-solid fa-sun"></i>
-              <p class="card-text">18°</p>
+              <p class="card-text five-day-forecast">18°</p>
             </div>
           </div>
         </div>
 
-        <div class="col five-day tue">
+        <div class="col">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Tue</h5>
               <i class="fa-solid fa-cloud"></i>
-              <p class="card-text">17°</p>
+              <p class="card-text five-day-forecast">17°</p>
             </div>
           </div>
         </div>
 
-        <div class="col five-day wed">
+        <div class="col">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Wed</h5>
               <i class="fa-solid fa-cloud-showers-heavy"></i>
-              <p class="card-text">18°</p>
+              <p class="card-text five-day-forecast">18°</p>
             </div>
           </div>
         </div>
 
-        <div class="col five-day thu">
+        <div class="col">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Thu</h5>
               <i class="fa-solid fa-cloud-sun"></i>
-              <p class="card-text">25°</p>
+              <p class="card-text five-day-forecast">25°</p>
             </div>
           </div>
         </div>
 
-        <div class="col five-day fri">
+        <div class="col">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Fri</h5>
               <i class="fa-solid fa-cloud"></i>
-              <p class="card-text">24°</p>
+              <p class="card-text five-day-forecast">24°</p>
             </div>
           </div>
         </div>
