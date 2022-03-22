@@ -1,7 +1,7 @@
 .container {
   max-width: 1000px;
-  margin-top: 100px;
-  padding: 50px 100px 50px;
+  margin-top: 52px;
+  padding: 24px 77px 32px;
   border: solid black 7px;
   border-radius: 3px;
   box-shadow: 3px 3px 5px black;
@@ -14,7 +14,7 @@ header {
 
 h1 {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   transition: auto 300ms;
 }
 
@@ -24,18 +24,23 @@ ul {
   font-size: 12px;
 }
 
-#weather-conditions {
-  text-transform: capitalize;
-}
-
 h2 {
   padding-bottom: none;
   text-align: center;
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 18px;
   padding-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+#weather-conditions {
+  text-transform: capitalize;
 }
 
 .today-weather-forecast a {
@@ -51,14 +56,6 @@ h5 {
   margin-bottom: 0;
 }
 
-.card {
-  margin-top: 5px;
-}
-
-.col {
-  padding-top: 0;
-  margin-top: 0;
-}
 #today-weather {
   font-size: 35px;
   position: relative;
@@ -81,15 +78,27 @@ h5 {
   color: black;
 }
 
+#weather-forecast {
+  position: relative;
+  right: -60px;
+}
+#weather-forecast img {
+  position: relative;
+  right: 23px;
+}
+
 .active:hover {
   cursor: default;
   color: black;
 }
 
 .card-text.five-day-forecast {
-  position: relative;
-  top: 6px;
-  padding-bottom: 20px;
+  font-size: 16px;
+  color: #48484a;
+}
+
+.min-temp {
+  opacity: 0.8;
 }
 #local-weather-button {
   text-align: center;
@@ -102,14 +111,6 @@ h5 {
 
 .card:hover {
   background-color: #7fa4e8;
-}
-.fa-solid {
-  font-size: 38px;
-}
-
-p {
-  font-size: 20px;
-  padding-top: 20px;
 }
 
 .row-three {
@@ -161,8 +162,4 @@ p {
   text-align: left;
   padding: 0;
   margin-top: 20px;
-}
-
-h5 {
-  font-size: 18px;
 }

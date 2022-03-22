@@ -38,80 +38,42 @@
         </div>
       </div>
 
-      <div class="row row-two">
-        <div class="col-3 today-weather-forecast">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Today</h5>
-              <img src="" id="today-weather-icon"></img>
-              <p class="card-text">
-                <span id="today-weather"></span>
-                <a href="#" id="celsius" class="active">°C</a>
-                <a href="#" id="fahrenheit">°F</a>
-              </p>
+      
+      <div class="row"> 
+          <div class="col-3 today-weather-forecast">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Today</h5>
+                <img src="" id="today-weather-icon"></img>
+                <p class="card-text">
+                  <span id="today-weather"></span>
+                  <a href="#" id="celsius" class="active">°C</a>
+                  <a href="#" id="fahrenheit">°F</a>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        
 
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Mon</h5>
-              <i class="fa-solid fa-sun"></i>
-              <p class="card-text five-day-forecast">18°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Tue</h5>
-              <i class="fa-solid fa-cloud"></i>
-              <p class="card-text five-day-forecast">17°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Wed</h5>
-              <i class="fa-solid fa-cloud-showers-heavy"></i>
-              <p class="card-text five-day-forecast">18°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Thu</h5>
-              <i class="fa-solid fa-cloud-sun"></i>
-              <p class="card-text five-day-forecast">25°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Fri</h5>
-              <i class="fa-solid fa-cloud"></i>
-              <p class="card-text five-day-forecast">24°</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-3 text-center weather-near-me">
-            <button class="btn button-primary" id="local">
-              Weather near me
-            </button>
-          </div>
+        <div class="col-9 w-90">
+          <div class="row" id="weather-forecast"></div>
         </div>
       </div>
-
+      
+      
+      
+      
+      
+      
+      <div class="row">
+        <div class="col-3 text-center weather-near-me">
+          <button class="btn button-primary" id="local">
+            Weather near me
+          </button>
+        </div>
+      </div>
+      
+      
       <form class="search-form">
         <div class="row">
           <label for="search-engine">Search for another city</label>
@@ -120,27 +82,57 @@
           <div class="col-10">
             <input type="text" class="form-control" id="search-engine" />
           </div>
-
+          
           <div class="col-2">
             <input
-              type="submit"
-              value="search"
-              class="form-control btn btn-primary"
+            type="submit"
+            value="search"
+            class="form-control btn btn-primary"
             />
           </div>
         </div>
       </form>
     </div>
-
+    
     <div class="container footnote">
       <h5>
         Coded by
         <a href="https://github.com/emmamarks27/Weather-app" target="_blank"
-          >Emma Marks</a
+        >Emma Marks</a
         >
       </h5>
     </div>
-
+    
     <script src="src/java.js"></script>
   </body>
-</html>
+  </html>
+  
+  <!-- <div class="col">
+    <div class="card">
+      <div class="card-body">
+      <h5 class="card-title">Sunday</h5>
+      <img src="http://openweathermap.org/img/wn/01n@2x.png" class="forecast-weather-icon"></img>
+      <p class="card-text five-day-forecast"><span class="max-temp">18°</span> <span class="min-temp">14°</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+      <h5 class="card-title">Monday</h5>
+      <img src="http://openweathermap.org/img/wn/01n@2x.png" class="forecast-weather-icon"></img>
+      <p class="card-text five-day-forecast"><span class="max-temp">18°</span> <span class="min-temp">14°</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+      <h5 class="card-title">Tuesday</h5>
+      <img src="http://openweathermap.org/img/wn/01n@2x.png" class="forecast-weather-icon"></img>
+      <p class="card-text five-day-forecast"><span class="max-temp">18°</span> <span class="min-temp">14°</span></p>
+      </div>
+    </div> 
+  </div> -->
