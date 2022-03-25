@@ -57,47 +57,45 @@ p {
 }
 
 #today-weather {
-  font-size: 35px;
+  font-size: 38px;
   position: relative;
   left: 15px;
 }
 
-.col-3.today-weather-location {
-  border-right: solid 5px grey;
+#celsius {
+  color: black;
 }
 
-.col-3.today-weather-forecast {
-  border-right: solid 5px grey;
+#celsius:hover {
+  cursor: default;
 }
+
+.col-3.today-weather-location,
+.col-3.today-weather-forecast,
 .col-3 .weather-near-me {
   border-right: solid 5px grey;
-}
-
-.active {
-  text-decoration: none;
-  color: black;
 }
 
 #weather-forecast {
   position: relative;
   right: -60px;
 }
+
 #weather-forecast img {
   position: relative;
   right: 23px;
 }
 
-.active:hover {
-  cursor: default;
-  color: black;
-}
-
 .card-text.five-day-forecast {
-  font-size: 16px;
   color: #48484a;
 }
 
+.max-temp {
+  font-size: 21px;
+}
+
 .min-temp {
+  font-size: 19px;
   opacity: 0.8;
 }
 #local-weather-button {
