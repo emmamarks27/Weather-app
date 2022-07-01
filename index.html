@@ -25,7 +25,7 @@
       <h1>Weather App</h1>
 
       <div class="row row-one">
-        <div class="col-3 today-weather-location">
+        <div class="col-3 today-weather-location" id="today-wl">
           <span class="small-text"> <span id="searched-city"></span></span>
           <ul>
             <li id="weather-conditions"></li>
@@ -40,7 +40,7 @@
 
       
       <div class="row"> 
-          <div class="col-3 today-weather-forecast">
+          <div class="col-3 today-weather-forecast" id="today-wf">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Today</h5>
@@ -74,7 +74,7 @@
       
       
       <form class="search-form">
-        <div class="row">
+        <div class="row" id="search-label"s>
           <label for="search-engine">Search for another city</label>
         </div>
         <div class="row">
@@ -87,6 +87,7 @@
             type="submit"
             value="search"
             class="form-control btn btn-primary"
+            id="search-button"
             />
           </div>
         </div>
